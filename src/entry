@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Bundle\FrameworkBundle\Console\Application;
+
+require_once __DIR__.'/load.php';
+
+return function () {
+    $config = new ApplicationConfiguration();
+
+    $kernel = $config->getKernel();
+
+    return new Application($kernel);
+};

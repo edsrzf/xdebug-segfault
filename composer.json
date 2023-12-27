@@ -1,0 +1,15 @@
+{
+    "name": "edsrzf/xdebug-segfault",
+    "description": "Reproduction case for XDebug 3.3.1 segfault",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Evan Shaw",
+            "email": "evan.shaw@lightspeedhq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5.0",
+        "symfony/framework-bundle": "~7.0"
+    }
+}
